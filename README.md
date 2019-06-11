@@ -15,10 +15,7 @@ information has been redacted/removed.
 Some interesting files of note are in the root directory:
 
 -   `report.sql`: This is a monster-length SQL query for generating a full 
-    report of all users and their current registration status. I wrote it before
-    I knew what an SQL `JOIN` was, and yet the query involves manually pseudo-
-    join-ing across *several* tables using particularly convoluted manual checks
-    on primary key values.
+    report of all users and their current registration status.
 
 -   `custom-php.php`: Custom PHP code written by me that is injected into the 
     WordPress site.
@@ -27,10 +24,3 @@ Some interesting files of note are in the root directory:
     structure of forms that make up the registration workflow.
 
 -   `export-pages.xml`: WordPress export of all page content.
-
-## License
-
-Everything here is Copyright 2017-2019 (c) The INTERalliance of Greater 
-Cincinnati. You do not have permission to share, modify, or publish this content
-anywhere else, in any form, without written permission from me or the current 
-Executive Director of the INTERalliance.
